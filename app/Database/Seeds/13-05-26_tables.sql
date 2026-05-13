@@ -1,5 +1,3 @@
-
-
 CREATE TABLE departements (
     id INT AUTO_INCREMENT PRIMARY KEY,
     nom VARCHAR(255) NOT NULL,
