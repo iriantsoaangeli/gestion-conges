@@ -28,12 +28,12 @@
         </a>
       </li>
       <li>
-        <a href="<?= base_url('employe/conge/create') ?>" <?= str_contains(current_url(), 'conge/create') ? 'class="active"' : '' ?>>
+        <a href="<?= base_url('employe/conges/create') ?>" <?= str_contains(current_url(), 'conges/create') ? 'class="active"' : '' ?>>
           <i class="bi bi-plus-circle"></i> Nouvelle demande
         </a>
       </li>
       <li>
-        <a href="<?= base_url('employe/conge') ?>" <?= (str_contains(current_url(), 'employe/conge') && !str_contains(current_url(), 'create')) ? 'class="active"' : '' ?>>
+        <a href="<?= base_url('employe/conges') ?>" <?= (str_contains(current_url(), 'employe/conges') && !str_contains(current_url(), 'create')) ? 'class="active"' : '' ?>>
           <i class="bi bi-calendar3"></i> Mes demandes
           <?php if (!empty($badge_attente) && $badge_attente > 0): ?>
             <span class="nav-badge alert"><?= $badge_attente ?></span>
