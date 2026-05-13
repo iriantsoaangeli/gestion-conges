@@ -934,3 +934,151 @@ in APPPATH/Views/employe/dashboard.php on line 46.
 10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
 11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
 12 SYSTEMPATH/rewrite.php(44): require_once('/home/victus/itu/S4/Mr Rojo/gestion-conges/public/index.php')
+CRITICAL - 2026-05-13 09:25:44 --> ParseError: syntax error, unexpected token "<<", expecting "]"
+[Method: GET, Route: rh/]
+in APPPATH/Config/Filters.php on line 38.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/Config/Factories.php(298): class_exists()
+ 5 SYSTEMPATH/Config/Factories.php(217): CodeIgniter\Config\Factories::locateClass()
+ 6 SYSTEMPATH/Config/Factories.php(160): CodeIgniter\Config\Factories::getDefinedInstance()
+ 7 SYSTEMPATH/Config/Factories.php(189): CodeIgniter\Config\Factories::__callStatic()
+ 8 SYSTEMPATH/Common.php(208): CodeIgniter\Config\Factories::get()
+ 9 SYSTEMPATH/Config/Services.php(295): config()
+10 SYSTEMPATH/Config/BaseService.php(325): CodeIgniter\Config\Services::filters()
+11 SYSTEMPATH/Config/BaseService.php(264): CodeIgniter\Config\BaseService::__callStatic()
+12 SYSTEMPATH/Config/Services.php(292): CodeIgniter\Config\BaseService::getSharedInstance()
+13 SYSTEMPATH/Config/BaseService.php(334): CodeIgniter\Config\Services::filters()
+14 SYSTEMPATH/CodeIgniter.php(331): CodeIgniter\Config\BaseService::__callStatic()
+15 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+16 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+17 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+18 SYSTEMPATH/rewrite.php(44): require_once('/home/angeli/Asa/MrRojo/gestion-conges/public/index.php')
+CRITICAL - 2026-05-13 09:25:44 --> ParseError: syntax error, unexpected token "<<", expecting "]"
+[Method: GET, Route: rh/]
+in APPPATH/Config/Filters.php on line 38.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/Config/Factories.php(298): class_exists()
+ 5 SYSTEMPATH/Config/Factories.php(217): CodeIgniter\Config\Factories::locateClass()
+ 6 SYSTEMPATH/Config/Factories.php(160): CodeIgniter\Config\Factories::getDefinedInstance()
+ 7 SYSTEMPATH/Config/Factories.php(189): CodeIgniter\Config\Factories::__callStatic()
+ 8 SYSTEMPATH/Common.php(208): CodeIgniter\Config\Factories::get()
+ 9 SYSTEMPATH/Config/Services.php(295): config()
+10 SYSTEMPATH/Config/BaseService.php(325): CodeIgniter\Config\Services::filters()
+11 SYSTEMPATH/Config/BaseService.php(264): CodeIgniter\Config\BaseService::__callStatic()
+12 SYSTEMPATH/Config/Services.php(292): CodeIgniter\Config\BaseService::getSharedInstance()
+13 SYSTEMPATH/Config/BaseService.php(334): CodeIgniter\Config\Services::filters()
+14 SYSTEMPATH/CodeIgniter.php(331): CodeIgniter\Config\BaseService::__callStatic()
+15 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+16 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+17 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+18 SYSTEMPATH/rewrite.php(44): require_once('/home/angeli/Asa/MrRojo/gestion-conges/public/index.php')
+CRITICAL - 2026-05-13 09:25:44 --> ParseError: syntax error, unexpected token "<<", expecting "]"
+[Method: GET, Route: rh/]
+in APPPATH/Config/Filters.php on line 38.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/Config/Factories.php(298): class_exists()
+ 5 SYSTEMPATH/Config/Factories.php(217): CodeIgniter\Config\Factories::locateClass()
+ 6 SYSTEMPATH/Config/Factories.php(160): CodeIgniter\Config\Factories::getDefinedInstance()
+ 7 SYSTEMPATH/Config/Factories.php(189): CodeIgniter\Config\Factories::__callStatic()
+ 8 SYSTEMPATH/Common.php(208): CodeIgniter\Config\Factories::get()
+ 9 SYSTEMPATH/Config/Services.php(295): config()
+10 SYSTEMPATH/Config/BaseService.php(325): CodeIgniter\Config\Services::filters()
+11 SYSTEMPATH/Config/BaseService.php(264): CodeIgniter\Config\BaseService::__callStatic()
+12 SYSTEMPATH/Config/Services.php(292): CodeIgniter\Config\BaseService::getSharedInstance()
+13 SYSTEMPATH/Config/BaseService.php(334): CodeIgniter\Config\Services::filters()
+14 SYSTEMPATH/CodeIgniter.php(331): CodeIgniter\Config\BaseService::__callStatic()
+15 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+16 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+17 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+18 SYSTEMPATH/rewrite.php(44): require_once('/home/angeli/Asa/MrRojo/gestion-conges/public/index.php')
+CRITICAL - 2026-05-13 09:25:45 --> ParseError: syntax error, unexpected token "<<", expecting "]"
+[Method: GET, Route: rh/]
+in APPPATH/Config/Filters.php on line 38.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/Config/Factories.php(298): class_exists()
+ 5 SYSTEMPATH/Config/Factories.php(217): CodeIgniter\Config\Factories::locateClass()
+ 6 SYSTEMPATH/Config/Factories.php(160): CodeIgniter\Config\Factories::getDefinedInstance()
+ 7 SYSTEMPATH/Config/Factories.php(189): CodeIgniter\Config\Factories::__callStatic()
+ 8 SYSTEMPATH/Common.php(208): CodeIgniter\Config\Factories::get()
+ 9 SYSTEMPATH/Config/Services.php(295): config()
+10 SYSTEMPATH/Config/BaseService.php(325): CodeIgniter\Config\Services::filters()
+11 SYSTEMPATH/Config/BaseService.php(264): CodeIgniter\Config\BaseService::__callStatic()
+12 SYSTEMPATH/Config/Services.php(292): CodeIgniter\Config\BaseService::getSharedInstance()
+13 SYSTEMPATH/Config/BaseService.php(334): CodeIgniter\Config\Services::filters()
+14 SYSTEMPATH/CodeIgniter.php(331): CodeIgniter\Config\BaseService::__callStatic()
+15 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+16 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+17 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+18 SYSTEMPATH/rewrite.php(44): require_once('/home/angeli/Asa/MrRojo/gestion-conges/public/index.php')
+DEBUG - 2026-05-13 09:26:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-13 09:26:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-13 09:26:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-13 09:26:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-13 09:27:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-13 09:27:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-13 09:27:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-13 09:27:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-13 09:27:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-13 09:27:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-13 09:27:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-13 09:27:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-13 09:28:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-13 09:28:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-13 09:28:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-13 09:28:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-13 09:28:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-13 09:28:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-13 09:28:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-13 09:28:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-13 09:28:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-13 09:28:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-13 09:31:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-13 09:32:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-13 09:33:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-13 09:33:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-13 09:33:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-13 09:33:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-13 09:35:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-05-13 09:35:53 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "rh/dashboard.php"
+[Method: GET, Route: rh/dashboard]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/RhController.php(177): view()
+ 4 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\RhController->dashboard()
+ 5 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+10 SYSTEMPATH/rewrite.php(44): require_once('/home/angeli/Asa/MrRojo/gestion-conges/public/index.php')
+DEBUG - 2026-05-13 09:35:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-13 09:36:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-13 09:36:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-13 09:36:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-13 09:36:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-13 09:36:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-13 09:36:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-13 09:36:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-05-13 09:36:53 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "rh/dashboard.php"
+[Method: GET, Route: rh/dashboard]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/RhController.php(177): view()
+ 4 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\RhController->dashboard()
+ 5 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+10 SYSTEMPATH/rewrite.php(44): require_once('/home/angeli/Asa/MrRojo/gestion-conges/public/index.php')
+DEBUG - 2026-05-13 09:36:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

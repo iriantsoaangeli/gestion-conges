@@ -1,7 +1,8 @@
 CREATE TABLE departements (
     id INT AUTO_INCREMENT PRIMARY KEY,
     nom VARCHAR(255) NOT NULL,
-    description TEXT
+    description TEXT,
+    actif BOOLEAN DEFAULT TRUE
 );
 
 CREATE TABLE roles (

@@ -47,3 +47,6 @@ INSERT INTO conges (id, employe_id, type_conge_id, date_debut, date_fin, nb_jour
 	(2, 3, 2, '2025-02-05', '2025-02-07', 3, 'Grippe', 2, 'Certificat valide', 2),
 	(3, 4, 1, '2025-04-22', '2025-04-25', 4, 'Mariage', 1, NULL, NULL),
 	(4, 5, 3, '2025-01-15', '2025-01-20', 6, 'Projet personnel', 3, 'Refuse par manque de personnel', 2);
+
+
+SELECT * from conges

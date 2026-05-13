@@ -1,7 +1,7 @@
 <?= $this->extend('layouts/rh') ?>
 
 <?= $this->section('breadcrumb') ?>
-<a href="<?= base_url('rh/dashboard') ?>">Accueil</a>
+<a href="<?= base_url('/employe') ?>">Accueil</a>
 <i class="bi bi-chevron-right" style="font-size:.6rem"></i>
 Demandes
 <?= $this->endSection() ?>
@@ -77,7 +77,9 @@ Demandes
             <td class="td-muted" style="font-size:.8rem"><?= esc($d['date_debut_fmt']) ?> – <?= esc($d['date_fin_fmt']) ?></td>
             <td class="td-mono"><?= $d['nb_jours'] ?> j</td>
             <td>
-              <?php if ($d['solde_ok']): ?>
+              <?php if ($d['solde_dispo'] === null): ?>
+                <span style="font-family:'DM Mono',monospace;font-size:.82rem;color:var(--muted);font-weight:500">Aucun jours pour ce type de conges</span>
+              <?php elseif ($d['solde_ok']): ?>
                 <span style="font-family:'DM Mono',monospace;font-size:.82rem;color:var(--success);font-weight:500"><?= $d['solde_dispo'] ?> j</span>
                 <span style="font-size:.72rem;color:var(--muted)"> dispo</span>
               <?php else: ?>
@@ -100,7 +102,9 @@ Demandes
                   </button>
                 </div>
               <?php else: ?>
-                <span class="td-muted" style="font-size:.75rem">Traité</span>
+                <span class="td-muted" style="font-size:.75rem">
+                  Traité par <?= esc($d['traite_par'] ?: '—') ?>
+                </span>
               <?php endif; ?>
             </td>
           </tr>

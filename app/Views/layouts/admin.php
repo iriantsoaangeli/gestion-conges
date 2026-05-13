@@ -47,16 +47,6 @@
           <i class="bi bi-building"></i> Départements
         </a>
       </li>
-      <li>
-        <a href="<?= base_url('admin/types-conge') ?>" <?= str_contains(current_url(), 'admin/types-conge') ? 'class="active"' : '' ?>>
-          <i class="bi bi-tags"></i> Types de congé
-        </a>
-      </li>
-      <li>
-        <a href="<?= base_url('admin/soldes') ?>" <?= str_contains(current_url(), 'admin/soldes') ? 'class="active"' : '' ?>>
-          <i class="bi bi-sliders"></i> Soldes annuels
-        </a>
-      </li>
     </ul>
     <div class="sidebar-user">
       <div class="s-user-row">
