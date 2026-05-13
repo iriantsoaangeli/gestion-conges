@@ -7,6 +7,9 @@ use CodeIgniter\Router\RouteCollection;
  */
 $routes->get('/', 'Home::index');
 
+$routes->get('/testdb', 'Home::testdb');
+
+
 $routes->group('auth', static function ($routes) {
     $routes->get('login', 'AuthController::login');
     $routes->get('logout', 'AuthController::logout');

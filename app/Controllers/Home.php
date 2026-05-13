@@ -20,7 +20,7 @@ class Home extends BaseController
     {
         $sections = [
             'Employe' => new Employe(),
-            // 'Role' => new Role(),
+            'Role' => new Role(),
             // 'TypeConges' => new TypeConges(),
             // 'Solde' => new Solde(),
             // 'StatusConge' => new StatusConge(),
