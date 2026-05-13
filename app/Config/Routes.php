@@ -21,7 +21,11 @@ $routes->group('employe', ['filter' => 'auth:employe'], static function ($routes
 	$routes->get('dashboard', 'EmployeController::dashboard');
 	$routes->get('conges', 'EmployeController::conges');
 	$routes->get('conges/create', 'EmployeController::congeCreate');
+	$routes->post('conges/store', 'EmployeController::congeStore');
+	$routes->post('conges/annuler/(:num)', 'EmployeController::congeAnnuler/$1');
 	$routes->get('profil', 'EmployeController::profil');
+	$routes->post('profil/update', 'EmployeController::profilUpdate');
+	$routes->post('profil/password', 'EmployeController::profilPassword');
 });
 
 $routes->group('admin', ['filter' => 'auth:admin'], static function ($routes) {

@@ -15,7 +15,7 @@ Nouvelle demande
     <div class="form-section">
       <h3>Détails de la demande</h3>
 
-      <?= form_open('employe/conge/store') ?>
+      <?= form_open('employe/conges/store') ?>
       <?= csrf_field() ?>
 
       <div class="f-group">
