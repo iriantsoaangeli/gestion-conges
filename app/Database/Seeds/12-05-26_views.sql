@@ -1,5 +1,6 @@
 DROP VIEW v_employes;
 DROP VIEW v_soldes;
+DROP View v_conges;
 
 CREATE view v_employes as
 SELECT e.id, e.nom, e.prenom, e.email, r.nom as role, d.nom as departement, e.date_embauche, e.actif
@@ -13,3 +14,10 @@ SELECT s.id , employe_id, e.nom as nom_employe, e.prenom as prenom_employe, type
 FROM soldes s
 JOIN employes e ON s.employe_id = e.id
 JOIN types_conges tc ON s.type_conge_id = tc.id;    
+
+
+CREATE VIEW v_conges AS
+SELECT c.id, c.employe_id, e.nom as nom_employe, e.prenom as prenom_employe, c.type_conge_id, tc.nom as type_conge, c.date_debut, c.date_fin, c.statut
+FROM conges c
+JOIN employes e ON c.employe_id = e.id
+JOIN types_conges tc ON c.type_conge_id = tc.id;
