@@ -90,6 +90,7 @@ Stack trace:
 #13 /home/victus/itu/S4/Mr Rojo/gestion-conges/system/Boot.php(166): CodeIgniter\Boot::runCommand()
 #14 /home/victus/itu/S4/Mr Rojo/gestion-conges/spark(87): CodeIgniter\Boot::bootSpark()
 #15 {main}
+<<<<<<< Updated upstream
 DEBUG - 2026-05-13 07:22:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 DEBUG - 2026-05-13 07:22:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 DEBUG - 2026-05-13 07:22:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
@@ -560,3 +561,135 @@ in APPPATH/Views/admin/demandes.php on line 40.
 DEBUG - 2026-05-13 07:49:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 DEBUG - 2026-05-13 07:49:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 DEBUG - 2026-05-13 07:49:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+=======
+CRITICAL - 2026-05-13 07:51:49 --> Error: Class "App\Models\Role" not found
+[Method: GET, Route: dbtest]
+in APPPATH/Controllers/Home.php on line 23.
+ 1 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Home->testdb()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/home/angeli/Asa/MrRojo/gestion-conges/public/index.php')
+CRITICAL - 2026-05-13 07:52:39 --> Error: Class "App\Models\Role" not found
+[Method: GET, Route: dbtest]
+in APPPATH/Controllers/Home.php on line 23.
+ 1 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Home->testdb()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/home/angeli/Asa/MrRojo/gestion-conges/public/index.php')
+CRITICAL - 2026-05-13 07:52:39 --> Error: Class "App\Models\Role" not found
+[Method: GET, Route: dbtest]
+in APPPATH/Controllers/Home.php on line 23.
+ 1 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Home->testdb()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/home/angeli/Asa/MrRojo/gestion-conges/public/index.php')
+CRITICAL - 2026-05-13 07:52:39 --> Error: Class "App\Models\Role" not found
+[Method: GET, Route: dbtest]
+in APPPATH/Controllers/Home.php on line 23.
+ 1 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Home->testdb()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/home/angeli/Asa/MrRojo/gestion-conges/public/index.php')
+CRITICAL - 2026-05-13 07:52:39 --> Error: Class "App\Models\Role" not found
+[Method: GET, Route: dbtest]
+in APPPATH/Controllers/Home.php on line 23.
+ 1 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Home->testdb()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/home/angeli/Asa/MrRojo/gestion-conges/public/index.php')
+CRITICAL - 2026-05-13 07:52:39 --> Error: Class "App\Models\Role" not found
+[Method: GET, Route: dbtest]
+in APPPATH/Controllers/Home.php on line 23.
+ 1 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Home->testdb()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/home/angeli/Asa/MrRojo/gestion-conges/public/index.php')
+CRITICAL - 2026-05-13 07:52:40 --> Error: Class "App\Models\Role" not found
+[Method: GET, Route: dbtest]
+in APPPATH/Controllers/Home.php on line 23.
+ 1 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Home->testdb()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/home/angeli/Asa/MrRojo/gestion-conges/public/index.php')
+CRITICAL - 2026-05-13 07:52:45 --> Error: Class "App\Models\TypeConges" not found
+[Method: GET, Route: dbtest]
+in APPPATH/Controllers/Home.php on line 24.
+ 1 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Home->testdb()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/home/angeli/Asa/MrRojo/gestion-conges/public/index.php')
+CRITICAL - 2026-05-13 07:52:46 --> Error: Class "App\Models\TypeConges" not found
+[Method: GET, Route: dbtest]
+in APPPATH/Controllers/Home.php on line 24.
+ 1 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Home->testdb()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/home/angeli/Asa/MrRojo/gestion-conges/public/index.php')
+CRITICAL - 2026-05-13 07:52:46 --> Error: Class "App\Models\TypeConges" not found
+[Method: GET, Route: dbtest]
+in APPPATH/Controllers/Home.php on line 24.
+ 1 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Home->testdb()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/home/angeli/Asa/MrRojo/gestion-conges/public/index.php')
+CRITICAL - 2026-05-13 07:52:56 --> Error: Class "App\Models\Solde" not found
+[Method: GET, Route: dbtest]
+in APPPATH/Controllers/Home.php on line 25.
+ 1 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Home->testdb()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/home/angeli/Asa/MrRojo/gestion-conges/public/index.php')
+CRITICAL - 2026-05-13 07:53:01 --> Error: Class "App\Models\StatusConge" not found
+[Method: GET, Route: dbtest]
+in APPPATH/Controllers/Home.php on line 26.
+ 1 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Home->testdb()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/home/angeli/Asa/MrRojo/gestion-conges/public/index.php')
+CRITICAL - 2026-05-13 07:53:05 --> Error: Class "App\Models\Conge" not found
+[Method: GET, Route: dbtest]
+in APPPATH/Controllers/Home.php on line 27.
+ 1 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Home->testdb()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/home/angeli/Asa/MrRojo/gestion-conges/public/index.php')
+>>>>>>> Stashed changes
