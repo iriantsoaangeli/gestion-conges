@@ -1,3 +1,11 @@
+-- DROP TABLE departements;
+-- DROP TABLE roles;
+DROP TABLE employes;
+DROP TABLE types_conges;
+DROP TABLE soldes;
+DROP TABLE status_conges;
+DROP TABLE conges;
+
 CREATE TABLE departements (
     id INT AUTO_INCREMENT PRIMARY KEY,
     nom VARCHAR(255) NOT NULL,
@@ -26,7 +34,7 @@ CREATE TABLE employes (
 CREATE TABLE types_conges (
     id INT AUTO_INCREMENT PRIMARY KEY,
     nom VARCHAR(255) NOT NULL UNIQUE,
-    description TEXT
+    deductible BOOLEAN DEFAULT TRUE
 );
 
 CREATE TABLE soldes (
