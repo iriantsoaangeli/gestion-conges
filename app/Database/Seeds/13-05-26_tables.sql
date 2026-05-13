@@ -1,10 +1,4 @@
--- DROP TABLE departements;
--- DROP TABLE roles;
-DROP TABLE employes;
-DROP TABLE types_conges;
-DROP TABLE soldes;
-DROP TABLE status_conges;
-DROP TABLE conges;
+
 
 CREATE TABLE departements (
     id INT AUTO_INCREMENT PRIMARY KEY,

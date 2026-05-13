@@ -1,6 +1,3 @@
-DROP VIEW v_employes;
-DROP VIEW v_soldes;
-DROP View v_conges;
 
 CREATE view v_employes as
 SELECT e.id, e.nom, e.prenom, e.email, r.nom as role, d.nom as departement, e.date_embauche, e.actif
