@@ -1,0 +1,1 @@
+__ci_last_regenerate|i:1778663381;_ci_previous_url|s:42:"http://localhost:8080/index.php/auth/login";user_id|i:4;user_email|s:21:"sara.lala@example.com";user_prenom|s:4:"Sara";user_nom|s:4:"Lala";user_role|s:7:"employe";user_departement|s:7:"Finance";success|s:16:"Bienvenue Sara !";__ci_vars|a:1:{s:7:"success";s:3:"old";}

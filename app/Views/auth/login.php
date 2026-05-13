@@ -19,21 +19,21 @@
         <i class="bi bi-shield-check"></i>
         <div>
           <div class="role-pill-name">Administrateur</div>
-          <div class="role-pill-cred">admin@techmada.mg · admin123</div>
+          <div class="role-pill-cred">jean.rakoto@example.com · admin123</div>
         </div>
       </div>
       <div class="role-pill">
         <i class="bi bi-person-check"></i>
         <div>
           <div class="role-pill-name">Responsable RH</div>
-          <div class="role-pill-cred">rh@techmada.mg · rh123</div>
+          <div class="role-pill-cred">mia.rabe@example.com · rh123</div>
         </div>
       </div>
       <div class="role-pill">
         <i class="bi bi-person"></i>
         <div>
           <div class="role-pill-name">Employé</div>
-          <div class="role-pill-cred">employe@techmada.mg · emp123</div>
+          <div class="role-pill-cred">koto.andry@example.com · emp123</div>
         </div>
       </div>
     </div>

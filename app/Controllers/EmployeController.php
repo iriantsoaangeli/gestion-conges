@@ -2,24 +2,38 @@
 
 namespace App\Controllers;
 
+use App\Models\Employe;
+use App\Models\Conge;
+use App\Models\Solde;
+
 class EmployeController extends BaseController
 {
-    private function getTestUser()
+    protected $employeModel;
+    protected $congeModel;
+    protected $soldeModel;
+
+    public function __construct()
     {
-        return [
-            'id' => 1,
-            'prenom' => 'Jean',
-            'nom' => 'Dupont',
-            'email' => 'employe@techmada.mg',
-            'departement' => 'Informatique',
-            'date_embauche_fmt' => '15/01/2022',
-        ];
+        $this->employeModel = new Employe();
+        $this->congeModel = new Conge();
+        $this->soldeModel = new Solde();
+    }
+
+    private function getUserData()
+    {
+        $userId = session()->get('user_id');
+        return $this->employeModel
+            ->select('employes.*, departements.nom as departement_name')
+            ->join('departements', 'employes.departement_id = departements.id', 'left')
+            ->find($userId);
     }
 
     public function dashboard()
     {
+        $user = $this->getUserData();
+        
         return view('employe/dashboard', [
-            'user' => $this->getTestUser(),
+            'user' => $user,
             'solde_total' => 30,
             'solde_annuel' => 25,
             'nb_attente' => 2,
@@ -38,8 +52,10 @@ class EmployeController extends BaseController
 
     public function conges()
     {
+        $user = $this->getUserData();
+        
         return view('employe/conge_index', [
-            'user' => $this->getTestUser(),
+            'user' => $user,
             'badge_attente' => 2,
             'demandes' => [
                 ['id' => 1, 'type' => 'Congé annuel', 'statut' => 'en_attente', 'date_debut_fmt' => '15/05/2026', 'date_fin_fmt' => '20/05/2026', 'nb_jours' => 5],
@@ -51,8 +67,10 @@ class EmployeController extends BaseController
 
     public function congeCreate()
     {
+        $user = $this->getUserData();
+        
         return view('employe/conge_create', [
-            'user' => $this->getTestUser(),
+            'user' => $user,
             'soldes' => [
                 ['type' => 'Congé annuel', 'solde' => 25, 'pris' => 10, 'pct' => 40],
                 ['type' => 'Congé maladie', 'solde' => 5, 'pris' => 0, 'pct' => 0],
@@ -67,8 +85,10 @@ class EmployeController extends BaseController
 
     public function profil()
     {
+        $user = $this->getUserData();
+        
         return view('employe/profil', [
-            'user' => $this->getTestUser(),
+            'user' => $user,
         ]);
     }
 }
